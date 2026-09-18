@@ -3,11 +3,11 @@
   "rewrites": [
     {
       "source": "/:number",
-      "destination": "/api/lookup?number=:number"
+      "destination": "/api/lookup/:number"
     },
     {
       "source": "/api/:number",
-      "destination": "/api/lookup?number=:number"
+      "destination": "/api/lookup/:number"
     }
   ]
 }
